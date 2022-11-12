@@ -49,6 +49,7 @@ const BookForm = () => {
         idsAutores: authors.map((author) => author.idAutor),
       }),
     });
+    window.location.reload()
   }
 
   return (
